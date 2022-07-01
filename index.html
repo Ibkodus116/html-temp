@@ -61,17 +61,15 @@ http://www.templatemo.com/tm-488-classic
 
     <section class="tm-section">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-center">
-            <h2 class="tm-gold-text tm-title">Introduction</h2>
+        <div class="d-flex align-items-lg-center flex-column mt-5">
+            <h2 class="tm-gold-text">Introduction</h2>
             <p class="tm-subtitle">
               Suspendisse ut magna vel velit cursus tempor ut nec nunc. Mauris
               vehicula, augue in tincidunt porta, purus ipsum blandit massa.
             </p>
-          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="view" onload="plenty()">
             <div class="tm-content-box" id="summary">
               <img
                 src="img/tm-img-310x180-1.jpg"
@@ -80,29 +78,39 @@ http://www.templatemo.com/tm-488-classic
               />
               <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #1</h4>
 
-              <div class="collapse nowrap" id="collapseExample">
+              <div class="collapse d-inlin" id="collapseExample">
                 Anim pariatur cliche reprehenderit, enim eiusmod high life
                 accusamus terry richardson ad squid. Nihil anim keffiyeh
                 helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                ea proident.
+                ea proident. Anim pariatur cliche reprehenderit, enim eiusmod
+                high life accusamus terry richardson ad squid. Nihil anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident. Anim pariatur cliche reprehenderit, enim
+                eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim keffiyeh helvetica, craft beer labore wes anderson cred
+                nesciunt sapiente ea proident. Anim pariatur cliche
+                reprehenderit, enim eiusmod high life accusamus terry richardson
+                ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                anderson cred nesciunt sapiente ea proident.
               </div>
               <p>
                 <button
+                  onclick="myFunc()"
                   class="tm-btn"
+                  
                   type="button"
                   data-toggle="collapse"
                   data-target="#collapseExample"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  Show
+                  More
                 </button>
               </p>
-              
             </div>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <div class="tm-content-box">
               <img
                 src="img/tm-img-310x180-2.jpg"
@@ -148,7 +156,7 @@ http://www.templatemo.com/tm-488-classic
               </p>
               <a href="#" class="tm-btn text-uppercase">Read More</a>
             </div>
-          </div>
+          </div> -->
         </div>
         <!-- row -->
       </div>
